@@ -28,43 +28,55 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Mamba - v4.7.0
-  * Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
 
-<body>
-        <?php 
-              include 'section/topbar.php';
-              include 'section/navbar.php';
-              include 'section/slider.php';
-              include 'section/count.php';
-
-        ?>
-        
-
-  <main id="main">
-              <?php 
-                      // include 'pages/about-us.php';
-                      // include 'pages/about-list.php';                
-                      //            
-                      // include 'pages/service.php';                
-                      // include 'pages/portfolio.php';                
-                      // include 'pages/team.php';                
-                         include 'client-review.php';                
-                      // include 'pages/contact.php';                
-              ?>
-  
+              <?php
+                include 'section/topbar.php';
+                include 'section/navbar.php';
+                ?>
 
 
-  </main><!-- End #main -->
+<!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-            <?php 
-                include 'section/footer.php'; 
-            ?>
+        <div class="row no-gutters">
+          <div class="col-lg-6 video-box">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
+
+            <div class="section-title">
+              <h2>About Us</h2>
+              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-fingerprint"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-gift"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+     
+
+
+
+    <?php
+include 'section/footer.php';
+?>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
