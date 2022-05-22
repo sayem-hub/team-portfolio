@@ -48,14 +48,14 @@
 
   <main id="main">
               <?php 
-                      // include 'pages/about-us.php';
-                      // include 'pages/about-list.php';                
+                      // include 'about-us.php';
+                      // include 'about-list.php';                
                       //            
-                      // include 'pages/service.php';                
-                      // include 'pages/portfolio.php';                
-                      // include 'pages/team.php';                
+                      // include 'service.php';                
+                      // include 'portfolio.php';                
+                      // include 'team.php';                
                          include 'client-review.php';                
-                      // include 'pages/contact.php';                
+                      // include 'contact.php';                
               ?>
   
 
